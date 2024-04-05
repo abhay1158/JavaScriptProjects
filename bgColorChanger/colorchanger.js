@@ -9,7 +9,7 @@ buttons.forEach((button)=>{
     button.addEventListener("click",function(event){
         console.log(event);
         console.log(event.target); // give the value where the event is occured
-        const valueOfEvent = event.target;
+        const valueOfEvent = event.target.id;
 
         // Use switch case to change the color of background according
         // to event clicked on 
